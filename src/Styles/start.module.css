@@ -1,0 +1,117 @@
+html,
+body {
+  height: 100;
+  position: relative;
+}
+.outer {
+  height: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: row; 
+    width: 100%;
+
+}
+
+.left {
+  width: 50%;
+  background-color: white;
+  padding: 80px 0px 0px 200px;
+  margin-top: 10px;
+}
+
+.right {
+
+  height: 100%;
+  width: 60%;
+}
+.title1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(154, 103, 201);
+}
+.title2 {
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.box1 {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-weight: 700;
+  margin: 15px 15px 15px 0px;
+  background-color: rgb(142, 142, 233);
+  color: rgb(3, 3, 224);
+
+}
+.box2 {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-weight: 700;
+  margin: 15px 15px 15px 0px;
+  color: green;
+  background-color: rgb(122, 235, 122);
+}
+.box3 {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-weight: 700;
+  margin: 15px 15px 15px 0px;
+  background-color: rgb(233, 204, 233);
+  color: rgb(240, 6, 240);
+}
+
+.line {
+  font-size: 17px;
+}
+.lineout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  /* justify-content: center; */
+}
+.btn-outer{
+    width: 100%;
+    height: 400px;
+}
+.btn{
+   
+    padding: 10px 40px;
+    color: white;
+
+width: 70%;
+background-color: rgb(0, 128, 58);
+font-size: large;
+color: white;
+font-weight: 600;
+width: 400px;
+border: none;
+text-decoration: none;
+margin-left: 10px;
+margin-top: 20px;
+}
+.last{
+    width: 400px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+a.word{
+    color: rgb(0, 174, 255);
+    font-weight: 700;
+    
+}
